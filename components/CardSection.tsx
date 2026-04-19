@@ -7,40 +7,33 @@ export default function CardSection() {
     <section className="padding-global py-8">
       <div className="container">
         <div className="card-section relative rounded-3xl overflow-hidden min-h-[500px] md:min-h-[600px]">
-          {/* Background Image */}
           <Image
-            src="/images/6585a96ad1f0d4e125333f0f_card image.jpg"
+            src="/images/media/abhimanyu_nirban_press.jpg"
             alt="Abhimanyu Nirban"
             fill
-            className="object-cover"
+            className="object-cover object-center"
             priority
           />
-          {/* Overlay */}
-          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/80" />
+          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/85" />
 
-          {/* Content */}
           <div className="relative z-10 flex flex-col justify-end h-full p-8 md:p-12 min-h-[500px] md:min-h-[600px]">
             <div className="max-width-80ch">
               <p className="text-size-xlarge text-white mb-6">
-                &ldquo;If you wanna stand out, gotta be outstanding.&rdquo;
+                &ldquo;I always knew AI could redefine marketing — that&apos;s how
+                RASA was born, and that&apos;s how Bharat Innovations was
+                built.&rdquo;
               </p>
               <p className="text-size-small opacity-60 text-white">
-                Elevate your online presence and leave your competitors in the
-                dust. Join the ranks of successful creatives and entrepreneurs
-                who trust Iman to elevate their impact.
+                — Abhimanyu Nirban, Founder, Bharat Innovations
               </p>
               <div className="mt-8">
                 <a
-                  href="#about"
+                  href="https://bharatinnovations.agency/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="button button-primary"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    document
-                      .querySelector("#about")
-                      ?.scrollIntoView({ behavior: "smooth" });
-                  }}
                 >
-                  Get Started
+                  Visit Bharat Innovations
                 </a>
               </div>
             </div>

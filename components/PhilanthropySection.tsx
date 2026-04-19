@@ -3,38 +3,38 @@
 import { useEffect, useRef } from "react";
 import Image from "next/image";
 
-const philanthropyItems = [
+const items = [
   {
-    id: "schools-nepal",
-    label: "Schools in Nepal",
-    heading: "You Get What You Give",
+    id: "ai-education",
+    label: "AI Education",
+    heading: "Democratising AI Marketing",
     description:
-      "Iman is constructing schools in Nepal to encourage greater involvement from disadvantaged nations in the new era. So far, Gadzhi has privately funded the construction of five schools in Nepal. He considers it his most fulfilling commitment and has no plans to stop.",
+      "Abhimanyu believes that AI is not just the future of marketing — it is the present. Through Bharat Innovations and the RASA Framework, he actively educates brands across India and beyond on leveraging artificial intelligence for real, measurable growth. His mission is to make AI-powered marketing accessible to businesses of every size.",
     images: [
-      "/images/659c58287d889f30eac8ceaa_Nepal_0003_Generative Fill.webp",
-      "/images/659c5828a19d10f7a0ec43a1_Nepal_0002_Generative Fill 6.webp",
-    ],
-  },
-  {
-    id: "company-marathon",
-    label: "Company Marathon",
-    heading: "Running for Education",
-    description:
-      "At the end of 2023, 75 employees of Educate ran a marathon and raised funds to support the work of Pahar Trust Nepal to improve the education provision in rural communities. Iman united his entire team and completed three marathons across three countries in one week. Every donation made to this fundraiser will be matched by Iman personally.",
-    images: [
-      "/images/6744b20267a7fe18a1f56805_92 05020031_31A-min-min (1).jpg",
-      "/images/6744b12f07eea4958dbdf7da_93 IMG_3604-min.JPG",
-    ],
-  },
-  {
-    id: "south-africa",
-    label: "Meals in South Africa",
-    heading: "Nourishing Communities",
-    description:
-      "Cherishing a personal connection to South Africa, and recognising the importance of nutrition in development, in 2024, Iman partnered with the renowned charity Ladles of Love, to fund a program providing nutritious meals for 100 children over the course of a year at one of their Early Childhood Development (ECD) Centres — the beginning of a long-lasting relationship with the charity.",
-    images: [
-      "/images/659c582c59fc9aa44ee132a6_web_0016_Generative Fill 11.webp",
+      "/images/659c582cd46e8c1c9029ae3a_web_0010_Generative Fill 16.webp",
       "/images/659c582cf629aed5baf65cdf_web_0018_Generative Fill 9.webp",
+    ],
+  },
+  {
+    id: "jewellery-brands",
+    label: "Jewellery Industry",
+    heading: "Transforming an Entire Industry",
+    description:
+      "After testing over 100 marketing frameworks, Abhimanyu crafted the RASA Framework specifically for the jewellery sector — a system that now powers 42 jewellery brands with a guaranteed minimum of 6x ROAS. His work has elevated independent jewellers to compete with the world's most recognised names on a global stage.",
+    images: [
+      "/images/659c5829379197a24aaf8ba1_web_0004_Generative Fill 29.webp",
+      "/images/659c582c59fc9aa44ee132a6_web_0016_Generative Fill 11.webp",
+    ],
+  },
+  {
+    id: "pr-mission",
+    label: "1000+ Media Portals",
+    heading: "Giving Brands a Voice",
+    description:
+      "In just two years, Abhimanyu built one of India's largest PR networks, giving brands access to over 1,000 media portals. He firmly believes every great brand deserves to be heard — not just seen. This media infrastructure underpins the trust-building layer of his RASA Framework and has helped dozens of brands establish national and international credibility.",
+    images: [
+      "/images/659c582c05e65b826d6ebc42_web_0020_Generative Fill 5.webp",
+      "/images/659c582d38b163ab6bcb7f24_web_0022_Generative Fill.webp",
     ],
   },
 ];
@@ -66,17 +66,17 @@ export default function PhilanthropySection() {
       id="you-get-what-you-give"
     >
       <div className="container">
-        <p className="section-label mb-4">Philanthropy</p>
+        <p className="section-label mb-4">Mission & Impact</p>
         <div className="text-animation reveal-01 mb-16">
           <h2 className="heading-2">
-            <span className="word">You Get</span>
+            <span className="word">Creativity Guided</span>
             <br />
-            <span className="word">What You Give</span>
+            <span className="word">by Data</span>
           </h2>
         </div>
 
         <div className="flex flex-col gap-24">
-          {philanthropyItems.map((item, index) => (
+          {items.map((item, index) => (
             <div
               key={item.id}
               className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center"

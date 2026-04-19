@@ -3,58 +3,17 @@
 import Image from "next/image";
 
 const marqueeImages = [
-  {
-    src: "/images/658cc53dd3f78dca164aed84_Iman working(8).webp",
-    alt: "Iman working",
-  },
-  {
-    src: "/images/658cc53dee5d3bc14e54d638_Iman with his mo.webp",
-    alt: "Iman with his mom",
-  },
-  {
-    src: "/images/658cc53d5a6a9abfe1d7b7d8_Iman working(2).webp",
-    alt: "Iman working",
-  },
-  {
-    src: "/images/658cc53dddba9729c8758b9e_Young Iman working.webp",
-    alt: "Young Iman working",
-  },
-  {
-    src: "/images/658cc53dd6f55583821cad38_Iman walking.webp",
-    alt: "Iman walking",
-  },
-  {
-    src: "/images/658cc53ecd9d5a68c79bc1fd_Iman working(1).webp",
-    alt: "Iman working",
-  },
-  {
-    src: "/images/658cc53d0c96244652e4641e_Iman with his mom(4).webp",
-    alt: "Iman with his mom",
-  },
-  {
-    src: "/images/658cc53d52d5ee59e3112492_Young Iman taking a picture.webp",
-    alt: "Young Iman taking a picture",
-  },
-  {
-    src: "/images/658cc53c491d62a69f4e8f79_Iman posing(17).webp",
-    alt: "Iman posing",
-  },
-  {
-    src: "/images/658cc53cbd7c075b6ab8216b_Iman with his mom(2).webp",
-    alt: "Iman with his mom",
-  },
-  {
-    src: "/images/658cc53c9113ee53dbe5d1bb_Iman closing deals(1).webp",
-    alt: "Iman closing deals",
-  },
-  {
-    src: "/images/658cc53dd6f55583821cad57_ Iman working.webp",
-    alt: "Iman working",
-  },
+  { src: "/images/media/abhimanyu_nirban_press.jpg", alt: "Abhimanyu Nirban speaking at event" },
+  { src: "/images/media/abhimanyu_nirban.PNG", alt: "Abhimanyu Nirban" },
+  { src: "/images/media/abhimanyu_nirban_press.jpg", alt: "Abhimanyu Nirban at podium" },
+  { src: "/images/media/abhimanyu_nirban.PNG", alt: "Abhimanyu Nirban entrepreneur" },
+  { src: "/images/media/abhimanyu_nirban_press.jpg", alt: "Abhimanyu Nirban founder" },
+  { src: "/images/media/abhimanyu_nirban.PNG", alt: "Abhimanyu Nirban Bharat Innovations" },
+  { src: "/images/media/abhimanyu_nirban_press.jpg", alt: "Abhimanyu Nirban RASA Framework" },
+  { src: "/images/media/abhimanyu_nirban.PNG", alt: "Abhimanyu Nirban AI marketing" },
 ];
 
 export default function MarqueeSection() {
-  // Duplicate for seamless loop
   const allImages = [...marqueeImages, ...marqueeImages];
 
   return (
@@ -71,7 +30,7 @@ export default function MarqueeSection() {
                 src={img.src}
                 alt={img.alt}
                 fill
-                className="object-cover"
+                className="object-cover object-top"
                 loading="lazy"
               />
             </div>

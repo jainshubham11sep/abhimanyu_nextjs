@@ -5,15 +5,15 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://www.abhimanyunirban.com"),
   title: "Abhimanyu Nirban",
   description:
-    "Abhimanyu Nirban is a British businessman, entrepreneur, motivational speaker and online educator. Abhimanyu is an advocate for universal education and a committed philanthropist.",
+    "Abhimanyu Nirban is a 26-year-old Indian entrepreneur from Sikar, Rajasthan. Founder of Bharat Innovations — India's first AI marketing agency — and creator of the RASA Framework.",
   openGraph: {
     title: "Abhimanyu Nirban",
     description:
-      "Abhimanyu Nirban is a British businessman, entrepreneur, motivational speaker and online educator. Abhimanyu is an advocate for universal education and a committed philanthropist.",
+      "Abhimanyu Nirban is a 26-year-old Indian entrepreneur from Sikar, Rajasthan. Founder of Bharat Innovations — India's first AI marketing agency — and creator of the RASA Framework.",
     type: "website",
     images: [
       {
-        url: "/images/659d627fe1185fca5397afc7_Iman Gadzhi Share Image.jpg",
+        url: "/images/media/abhimanyu_nirban.PNG",
         width: 1200,
         height: 630,
         alt: "Abhimanyu Nirban",
@@ -24,8 +24,8 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Abhimanyu Nirban",
     description:
-      "Abhimanyu Nirban is a British businessman, entrepreneur, motivational speaker and online educator.",
-    images: ["/images/659d627fe1185fca5397afc7_Iman Gadzhi Share Image.jpg"],
+      "Abhimanyu Nirban — founder of India's first AI marketing agency, Bharat Innovations, and creator of the RASA Framework.",
+    images: ["/images/media/abhimanyu_nirban.PNG"],
   },
 };
 

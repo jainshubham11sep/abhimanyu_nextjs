@@ -4,20 +4,20 @@ const ctaCards = [
   {
     id: "01",
     image: "/images/6585a96ad1f0d4e125333f38_bg-card-1.jpg",
-    heading: "Build Your Agency",
+    heading: "Grow Your Brand with AI",
     description:
-      "Join thousands of entrepreneurs who have built 6 and 7-figure agencies using Iman's proven frameworks.",
-    link: "https://www.growyouragency.com/",
-    label: "GrowYourAgency",
+      "Partner with Bharat Innovations — India's first AI marketing agency — and unlock 15x ROAS for your e-commerce brand.",
+    link: "https://bharatinnovations.agency/",
+    label: "Bharat Innovations",
   },
   {
     id: "02",
     image: "/images/6585a96ad1f0d4e125333f36_bg-card-2.jpg",
-    heading: "Transform Your Life",
+    heading: "Scale with RASA Framework",
     description:
-      "Discover a world of possibilities. Educate.io empowers students with monetizable skills for the digital age.",
+      "The jewellery industry's #1 AI marketing framework. Proven across 42 brands. Minimum 6x ROAS guaranteed.",
     link: "#",
-    label: "Educate.io",
+    label: "RASA Framework",
   },
 ];
 
@@ -30,7 +30,6 @@ export default function CTASection() {
             <div
               key={card.id}
               className="cta-card relative rounded-3xl overflow-hidden min-h-[420px] md:min-h-[500px]"
-              style={{ backgroundImage: `url(${card.image})` }}
             >
               <Image
                 src={card.image}

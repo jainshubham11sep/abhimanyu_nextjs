@@ -3,18 +3,13 @@ import Link from "next/link";
 
 const socialLinks = [
   {
-    name: "YouTube",
-    href: "https://www.youtube.com/@ImanGadzhi",
-    icon: "/images/659c6c021f01a145ffb25912_youtube-icon.svg",
-  },
-  {
     name: "Instagram",
-    href: "https://www.instagram.com/imangadzhi/",
+    href: "https://www.instagram.com/abhimanyu2.0/",
     icon: "/images/6585a96ad1f0d4e125333f71_Instagram.svg",
   },
   {
     name: "Twitter",
-    href: "https://twitter.com/gadzhiiman",
+    href: "https://x.com/AbhimanyuX_",
     icon: "/images/6585a96ad1f0d4e125333f73_Twitter.svg",
   },
 ];
@@ -27,10 +22,10 @@ export default function Footer() {
           {/* Left - Brand */}
           <div>
             <Link href="/" className="nav-brand text-xl block mb-3">
-              IMAN GADZHI
+              ABHIMANYU NIRBAN
             </Link>
             <p className="text-size-small opacity-40">
-              British entrepreneur & educator
+              Indian entrepreneur, AI marketing pioneer & poet
             </p>
           </div>
 
@@ -38,10 +33,10 @@ export default function Footer() {
           <div className="text-center">
             <p className="section-label mb-3">Get in Touch</p>
             <a
-              href="mailto:hello@iman-gadzhi.com"
+              href="mailto:hello@bharatinnovations.co.in"
               className="text-size-small opacity-60 hover:opacity-100 transition-opacity"
             >
-              hello@iman-gadzhi.com
+              hello@bharatinnovations.co.in
             </a>
           </div>
 
@@ -73,8 +68,7 @@ export default function Footer() {
         <div className="white-line mt-8 mb-6" />
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-size-small opacity-30">
-            © 2026 EDUCATE IAG SERVICES - FZCO | DSO-IFZA-20424, IFZA
-            Properties, Dubai Silicon Oasis, United Arab Emirates
+            © 2026 Bharat Innovations | Jaipur, Rajasthan, India
           </p>
           <div className="flex items-center gap-4">
             {socialLinks.map((social) => (
